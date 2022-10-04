@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>683</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>alantop_set</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>60</y>
+     <width>180</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>181</width>
+     <height>101</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>隐藏任务栏 桌面</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>60</y>
+     <width>180</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>显示任务栏桌面</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_unlock">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>180</y>
+     <width>180</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>屏蔽锁定计算机</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="hideZizhuji">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>350</y>
+     <width>300</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>隐藏应用程序  屏蔽常用系统键盘</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_lock">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>180</y>
+     <width>180</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开锁定计算机</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
