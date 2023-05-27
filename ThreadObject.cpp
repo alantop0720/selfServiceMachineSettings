@@ -1,7 +1,8 @@
-// ThreadObject.cpp
+﻿// ThreadObject.cpp
 #include "ThreadObject.h"
 #include <QDebug>
-#include<windows.h>
+#include <windows.h>
+#include <QSettings>
 
 ThreadObject::ThreadObject()
     : is_stop_(false)
@@ -20,7 +21,23 @@ void ThreadObject::run()
 //        qInfo() << "Thread-ID: " << QThread::currentThreadId() << " Count: " << ++count_;
 //        sleep(3);
 //    }
-      msleep(1000);
+    qDebug() << "start" ;
+    //创建QSettings对象并指定ini文件路径并将格式设置为ini
+      QSettings setting("./config.ini", QSettings::IniFormat);
+
+      QString temp = setting.value("debug").toString();
+      qDebug() << "temp=" << temp ;
+
+
+      if ( QString::compare(temp, "1") == 0 )
+          msleep(10000);
+
+
+
+
+
+
+
 
 //    QString name = "Qt624QWindowIcon";//窗口的类名
 //    QString windowname = "alantop_set";//窗口标题名

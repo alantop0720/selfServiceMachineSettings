@@ -16,17 +16,11 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>60</y>
-     <width>180</width>
+     <x>50</x>
+     <y>50</y>
+     <width>261</width>
      <height>100</height>
     </rect>
-   </property>
-   <property name="maximumSize">
-    <size>
-     <width>181</width>
-     <height>101</height>
-    </size>
    </property>
    <property name="text">
     <string>隐藏任务栏 桌面</string>
@@ -35,8 +29,8 @@
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>60</y>
+     <x>460</x>
+     <y>50</y>
      <width>180</width>
      <height>100</height>
     </rect>
@@ -48,9 +42,9 @@
   <widget class="QPushButton" name="pushButton_unlock">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>49</x>
      <y>180</y>
-     <width>180</width>
+     <width>261</width>
      <height>100</height>
     </rect>
    </property>
@@ -61,9 +55,9 @@
   <widget class="QPushButton" name="hideZizhuji">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>350</y>
-     <width>300</width>
+     <x>50</x>
+     <y>310</y>
+     <width>261</width>
      <height>100</height>
     </rect>
    </property>
@@ -74,7 +68,7 @@
   <widget class="QPushButton" name="pushButton_lock">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>460</x>
      <y>180</y>
      <width>180</width>
      <height>100</height>
